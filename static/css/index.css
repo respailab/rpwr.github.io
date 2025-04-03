@@ -119,6 +119,12 @@ body {
   overflow: hidden;
   padding: 20px;
   font-size: 0;
+  text-align: center;
+}
+
+.results-carousel .item img{
+  height: 400px;
+  width: auto;
 }
 
 .results-carousel video {
