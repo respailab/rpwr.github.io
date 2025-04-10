@@ -1,7 +1,7 @@
 # Right Prediction, Wrong Reasoning: Uncovering LLM Misalignment in RA Disease Diagnosis
 
 ## Authors
-- **Umakanta Maharana**  
+- **[Umakanta Maharana](https://umakantamaharana.github.io/)**  
 RespAI Lab, KIIT Bhubaneswar  
 - **Sarthak Verma**  
 KIMS Bhubaneswar  
@@ -13,14 +13,11 @@ KIMS Bhubaneswar
 Monash University, Australia  
 - **Sakir Ahmed**  
 KIMS Bhubaneswar  
-- **Murari Mandal**  
+- **[Murari Mandal](https://murarimandal.github.io/)**  
 RespAI Lab, KIIT Bhubaneswar  
 
-*Correspondence*: murari.mandalfcs@kiit.ac.in  
+*Correspondence*: [Murari Mandal](https://murarimandal.github.io/) 
 *arXiv Identifier*: [arXiv:2504.06581v1 [cs.AI]](https://arxiv.org/pdf/2504.06581)
-
-## Abstract
-Large language models (LLMs) demonstrate promising accuracy in early disease detection, enabling improved healthcare access for underprivileged communities. This study investigates LLMs in diagnosing Rheumatoid Arthritis (RA) using real-world patient data. While LLMs achieved 95% prediction accuracy, nearly 68% of their reasoning was deemed flawed by medical experts. This misalignment raises concerns about reliability and clinical decision-making.
 
 ## Key Highlights
 - **Dataset**: PreRAID, comprising 160 patient records from KIMS, Bhubaneswar.
