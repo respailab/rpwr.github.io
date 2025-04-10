@@ -3,29 +3,32 @@
 
 <head>
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="Academic research">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+  <meta name="description"
+    content="Analyzing LLM misalignment in rheumatoid arthritis diagnosis. Our study shows that while LLMs predict disease accurately, their reasoning is often incorrect, as verified by medical experts.">
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="Right Prediction, Wrong Reasoning: LLM Misalignment in RA Diagnosis" />
+  <meta property="og:description"
+    content="This research uncovers how LLMs predict rheumatoid arthritis correctly but often provide incorrect reasoning, highlighting a critical gap in AI-driven medical diagnosis." />
   <meta property="og:url" content="URL OF THE WEBSITE" />
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
-
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:title" content="Right Prediction, Wrong Reasoning: LLM Misalignment in RA Diagnosis">
+  <meta name="twitter:description"
+    content="LLMs achieve high accuracy in rheumatoid arthritis diagnosis but fail in reasoning. Verified by medical experts, our research exposes a critical flaw in AI-driven healthcare.">
   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+
+  <!-- Keywords for indexing -->
+  <meta name="keywords"
+    content="LLM medical reasoning, AI diagnosis errors, rheumatoid arthritis AI, agentic framework, healthcare AI, large language models, medical AI verification, AI in rheumatology, AI misalignment in medicine, AI reasoning validation">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
   <title>Right Prediction, Wrong Reasoning</title>
+
   <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -43,6 +46,7 @@
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
 </head>
+
 
 <body>
 
@@ -69,41 +73,42 @@
                 <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Dwarikanath Mahapatra</a><sup>3</sup>,
               </span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Sakir Ahmed</a><sup>2</sup>,
+                <a href="https://drsakirsrheumatology.com/" target="_blank">Sakir Ahmed</a><sup>2</sup>,
               </span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Murari Mandal</a><sup>1</sup>,
+                <a href="https://murarimandal.github.io/" target="_blank">Murari Mandal</a><sup>1</sup>,
               </span>
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>RespAI Lab, KIIT Bhubaneswar<br><sup>2</sup>KIMS Bhubaneswar<br><sup>3</sup>Monash University, Australia</span>
+              <span class="author-block"><sup>1</sup>RespAI Lab, KIIT Bhubaneswar<br><sup>2</sup>KIMS
+                Bhubaneswar<br><sup>3</sup>Monash University, Australia</span>
               <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
             </div>
 
             <div class="column has-text-centered">
               <div class="publication-links">
                 <!-- Arxiv PDF link -->
-                <!-- <span class="link-block">
-                  <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2504.06581.pdf" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
                     <span>Paper</span>
                   </a>
-                </span> -->
+                </span>
 
                 <!-- Supplementary PDF link -->
-                <!-- <span class="link-block">
-                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/respai-lab/PreRAID" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
+                      <i class="fas fa-table"></i>
                     </span>
-                    <span>Supplementary</span>
+                    <span>Dataset</span>
                   </a>
-                </span> -->
+                </span>
 
                 <!-- Github link -->
                 <span class="link-block">
@@ -118,7 +123,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2504.06581" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -159,8 +164,23 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              Large language models (LLMs) offer a promising pre-screening tool, improving early disease detection and providing enhanced healthcare access for underprivileged communities. The early diagnosis of various diseases continues to be a significant challenge in healthcare, primarily due to the nonspecific nature of early symptoms, the shortage of expert medical practitioners, and the need for prolonged clinical evaluations, all of which can delay treatment and adversely affect patient outcomes. With impressive accuracy in prediction across a range of diseases, LLMs have the potential to revolutionize clinical pre-screening and decision-making for various medical conditions. In this work, we study the diagnostic capability of LLMs for Rheumatoid Arthritis (RA) with real world patients data.
-              Patient data was collected alongside diagnoses from medical experts, and the performance of LLMs was evaluated in comparison to expert diagnoses for RA disease prediction. We notice an interesting pattern in disease diagnosis and find an unexpected <i>misalignment between prediction and explanation</i>. We conduct a series of multi-round analyses using different LLM agents. The best-performing model accurately predicts rheumatoid arthritis (RA) diseases approximately 95% of the time. However, when medical experts evaluated the reasoning generated by the model, they found that nearly 68% of the reasoning was incorrect. This study highlights a clear misalignment between LLMs high prediction accuracy and its flawed reasoning, raising important questions about relying on LLM explanations in clinical settings. <b>LLMs provide incorrect reasoning to arrive at the correct answer for RA disease diagnosis.</b>
+              Large language models (LLMs) offer a promising pre-screening tool, improving early disease detection and
+              providing enhanced healthcare access for underprivileged communities. The early diagnosis of various
+              diseases continues to be a significant challenge in healthcare, primarily due to the nonspecific nature of
+              early symptoms, the shortage of expert medical practitioners, and the need for prolonged clinical
+              evaluations, all of which can delay treatment and adversely affect patient outcomes. With impressive
+              accuracy in prediction across a range of diseases, LLMs have the potential to revolutionize clinical
+              pre-screening and decision-making for various medical conditions. In this work, we study the diagnostic
+              capability of LLMs for Rheumatoid Arthritis (RA) with real world patients data.
+              Patient data was collected alongside diagnoses from medical experts, and the performance of LLMs was
+              evaluated in comparison to expert diagnoses for RA disease prediction. We notice an interesting pattern in
+              disease diagnosis and find an unexpected <i>misalignment between prediction and explanation</i>. We
+              conduct a series of multi-round analyses using different LLM agents. The best-performing model accurately
+              predicts rheumatoid arthritis (RA) diseases approximately 95% of the time. However, when medical experts
+              evaluated the reasoning generated by the model, they found that nearly 68% of the reasoning was incorrect.
+              This study highlights a clear misalignment between LLMs high prediction accuracy and its flawed reasoning,
+              raising important questions about relying on LLM explanations in clinical settings. <b>LLMs provide
+                incorrect reasoning to arrive at the correct answer for RA disease diagnosis.</b>
 
             </p>
           </div>
@@ -180,35 +200,46 @@
             <!-- Your image here -->
             <img src="static/images/framework.png" alt="MY ALT TEXT" />
             <h2 class="subtitle has-text-centered">
-              Overview of the framework for RA patients diagnosis. We conduct experiments with four different architectures: LLM without knowledge base (from PreRAID), LLM+knowledge base+RAG, 2 LLM Agents+knowledge base+RAG, 3 LLM Agents+knowledge base+RAG. We store the final diagnosis and the reasoning tokens generated by each architecture.
+              Overview of the framework for RA patients diagnosis. We conduct experiments with four different
+              architectures: LLM without knowledge base (from PreRAID), LLM+knowledge base+RAG, 2 LLM Agents+knowledge
+              base+RAG, 3 LLM Agents+knowledge base+RAG. We store the final diagnosis and the reasoning tokens generated
+              by each architecture.
             </h2>
           </div>
           <div class="item">
             <!-- Your image here -->
             <img src="static/images/datasetinfo.png" alt="MY ALT TEXT" />
             <h2 class="subtitle has-text-centered">
-              Overview of the framework for RA patients diagnosis. We conduct experiments with four different architectures: LLM without knowledge base (from PreRAID), LLM+knowledge base+RAG, 2 LLM Agents+knowledge base+RAG, 3 LLM Agents+knowledge base+RAG. We store the final diagnosis and the reasoning tokens generated by each architecture.
+              Overview of the framework for RA patients diagnosis. We conduct experiments with four different
+              architectures: LLM without knowledge base (from PreRAID), LLM+knowledge base+RAG, 2 LLM Agents+knowledge
+              base+RAG, 3 LLM Agents+knowledge base+RAG. We store the final diagnosis and the reasoning tokens generated
+              by each architecture.
             </h2>
           </div>
           <div class="item">
             <!-- Your image here -->
             <img src="static/images/accuracy.png" alt="MY ALT TEXT" />
             <h2 class="subtitle has-text-centered">
-              Accuracy of disease prediction across all the models by providing all the knowledge bases. Orange, sky blue, deep blue and light blue color represents the accuracy in llm without RAG, single agent+RAG, 2 agents+RAG, and 3 agents+RAG, respectively.
+              Accuracy of disease prediction across all the models by providing all the knowledge bases. Orange, sky
+              blue, deep blue and light blue color represents the accuracy in llm without RAG, single agent+RAG, 2
+              agents+RAG, and 3 agents+RAG, respectively.
             </h2>
           </div>
           <div class="item">
             <!-- Your image here -->
             <img src="static/images/six_models_pvr.png" alt="MY ALT TEXT" />
             <h2 class="subtitle has-text-centered">
-              Reasoning performance across different LLM models in the 2 LLM agents+RAG setup. This figure compares the reasoning quality of various LLM models: GPT-3.5 Turbo, GPT-4o, GPT-4o-mini, Gemini 1.5 Flash, Gemini 2.0 Flash, and QWEN-2-7B, within the 2 LLMagents+RAG framework.
+              Reasoning performance across different LLM models in the 2 LLM agents+RAG setup. This figure compares the
+              reasoning quality of various LLM models: GPT-3.5 Turbo, GPT-4o, GPT-4o-mini, Gemini 1.5 Flash, Gemini 2.0
+              Flash, and QWEN-2-7B, within the 2 LLMagents+RAG framework.
             </h2>
           </div>
           <div class="item">
             <!-- Your image here -->
             <img src="static/images/four_pvr.png" alt="MY ALT TEXT" />
             <h2 class="subtitle has-text-centered">
-              Comparison of diagnostic accuracy and expert-rated reasoning ratings for Gemini 2.0 Flash and GPT-4o across four architectures: LLM without RAG, LLM+RAG, 2 LLM agents+RAG, and 3 LLM agents+RAG
+              Comparison of diagnostic accuracy and expert-rated reasoning ratings for Gemini 2.0 Flash and GPT-4o
+              across four architectures: LLM without RAG, LLM+RAG, 2 LLM agents+RAG, and 3 LLM agents+RAG
             </h2>
           </div>
         </div>
@@ -273,7 +304,7 @@
 
 
   <!-- Paper poster -->
-  <section class="hero is-small is-light">
+  <!-- <section class="hero is-small is-light">
     <div class="hero-body">
       <div class="container">
         <h2 class="title">Paper preview</h2>
@@ -283,7 +314,7 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
   <!--End paper poster -->
 
 
@@ -291,7 +322,17 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>Will be updated</code></pre>
+      <pre><code>
+        @misc{maharana2025rightpredictionwrongreasoning,
+          title={Right Prediction, Wrong Reasoning: Uncovering LLM Misalignment in RA Disease Diagnosis}, 
+          author={Umakanta Maharana and Sarthak Verma and Avarna Agarwal and Prakashini Mruthyunjaya and Dwarikanath Mahapatra and Sakir Ahmed and Murari Mandal},
+          year={2025},
+          eprint={2504.06581},
+          archivePrefix={arXiv},
+          primaryClass={cs.AI},
+          url={https://arxiv.org/abs/2504.06581}, 
+    }
+      </code></pre>
     </div>
   </section>
   <!--End BibTex citation -->
